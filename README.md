@@ -9,6 +9,23 @@
 5. Functionality for exchanging wETH & wBTC -> $.
 6. Limit minting to entities with required collateral.
 
+### Dependancies
+chainlink-brownie-contracts v0.6.1
+```shell
+$ forge install smartcontractkit/chainlink-brownie-contracts@v0.6.1
+```
+
+openzeppelin-contracts v5.4.0
+```shell
+$ forge install OpenZeppelin/openzeppelin-contracts@v5.4.0
+```
+
+forge-std
+```shell
+$ forge install foundry-rs/forge-std@v1.11.0
+```
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
